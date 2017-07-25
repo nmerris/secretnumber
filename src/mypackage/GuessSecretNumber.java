@@ -52,7 +52,7 @@ public class GuessSecretNumber {
 				if(num < secretNum) // entered num is too low
 					System.out.println("You guessed too low, try again? (Y/N)");
 				
-				continuePlaying = scanner.next(); // does user want to continue?
+				continuePlaying = scanner.nextLine(); // does user want to continue?
 				
 				if(continuePlaying.equalsIgnoreCase("n")) // user opted to quit
 					userGaveUp = true;
