@@ -33,6 +33,8 @@ public class GuessSecretNumber {
 					num = 0; // need this so it will compile
 					System.out.println("Please enter an integer");
 				};
+
+				scanner.nextLine(); // consume the annoying \n
 			} while(invalidNumberEntered);
 			
 			
